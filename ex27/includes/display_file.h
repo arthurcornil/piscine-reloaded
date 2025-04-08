@@ -15,6 +15,7 @@
 
 # include <unistd.h>
 # include <fcntl.h>
+# include <stdbool.h>
 # define BUFFER_SIZE 4
 
 void	*ft_memset(void *b, int c, size_t len);

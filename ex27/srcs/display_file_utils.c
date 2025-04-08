@@ -33,6 +33,4 @@ void	ft_putstrfd(int fd, char *str)
 	while (str[len])
 		len ++;
 	write(fd, str, len);
-
 }
-
